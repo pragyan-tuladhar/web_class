@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<h1>Today's day is</h1>
+<body>
+<p id="demo"></p>
+
+<script>
+    const time = new Date().getDay();
+    let gretting;
+    if (time == 0) {
+        gretting = "Sunday";
+    }
+    if (time == 1) {
+        gretting = "Monday";
+    }
+    if (time == 2) {
+        gretting = "Tuesday";
+    }
+    if (time == 3) {
+        gretting = "Wednesday";
+    }
+    if (time == 4) {
+        gretting = "Thrusday";
+    }
+    if (time == 5) {
+        gretting = "friday";
+    }
+    if (time == 0) {
+        gretting = "Saturday";
+    }
+    document.getElementById("demo").innerHTML=gretting;
+</script>
+
+</body>
+</html>
