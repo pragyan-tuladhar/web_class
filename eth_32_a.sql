@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Nov 09, 2022 at 06:50 AM
+-- Generation Time: Nov 10, 2022 at 05:21 AM
 -- Server version: 10.4.25-MariaDB
 -- PHP Version: 8.1.10
 
@@ -41,10 +41,10 @@ CREATE TABLE `eth_32_a` (
 --
 
 INSERT INTO `eth_32_a` (`first_name`, `last_name`, `age`, `favorite_song`, `favorite_movie`, `fav_actor`) VALUES
-('Pragyan', 'Tuladhar', 19, 'N95', 'Jojo Rabbit', 'Amir Khan'),
+('Pragyan', 'Tuladhar', 20, 'N95', 'Jojo Rabbit', 'Shahrukh Khan'),
 ('Aviyan', 'Dahal', 19, 'Major Distribution', 'Angry Birds', 'Amir Khan'),
 ('Arman', 'Shah', 19, 'Hold the Hat', 'Godzilla', 'Amir Khan'),
-('Sudat', 'Shrestha', 19, 'Na Risauna', 'Pirates of the Caribbean', 'Amir Khan');
+('Sudat', 'Shrestha', 20, 'Na Risauna', 'Pirates of the Caribbean', 'Shahrukh Khan');
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
